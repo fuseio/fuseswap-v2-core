@@ -1,18 +1,16 @@
 {
-  "name": "@uniswap/v2-core",
-  "description": "🎛 Core contracts for the UniswapV2 protocol",
-  "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "name": "@voltage/core",
+  "description": "🎛 Core contracts for the voltage protocol",
+  "version": "1.0.0",
+  "homepage": "https://voltage.finance",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v2-core"
+    "url": "https://github.com/voltfinance/voltage-core"
   },
   "keywords": [
-    "uniswap",
-    "ethereum",
-    "v2",
-    "core",
-    "uniswap-v2"
+    "voltage",
+    "fuse",
+    "core"
   ],
   "files": [
     "contracts",
