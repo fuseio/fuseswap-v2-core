@@ -1,7 +1,7 @@
 {
   "name": "@voltage/core",
   "description": "🎛 Core contracts for the voltage protocol",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "homepage": "https://voltage.finance",
   "repository": {
     "type": "git",
