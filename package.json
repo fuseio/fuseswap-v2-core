@@ -5,7 +5,7 @@
   "homepage": "https://voltage.finance",
   "repository": {
     "type": "git",
-    "url": "https://github.com/voltfinance/voltage-core"
+    "url": "https://github.com/voltfinance/voltage-dex-core"
   },
   "keywords": [
     "voltage",
