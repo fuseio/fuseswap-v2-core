@@ -16,6 +16,10 @@ contract VoltageFactory is IVoltageFactory {
         feeToSetter = _feeToSetter;
     }
 
+    function pairCodeHash() external pure returns (bytes32) {
+        return keccak256(type(VoltagePair).creationCode);
+    }
+
     function allPairsLength() external view returns (uint) {
         return allPairs.length;
     }

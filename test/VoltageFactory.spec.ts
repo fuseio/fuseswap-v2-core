@@ -68,7 +68,7 @@ describe('VoltageFactory', () => {
   it('createPair:gas', async () => {
     const tx = await factory.createPair(...TEST_ADDRESSES)
     const receipt = await tx.wait()
-    expect(receipt.gasUsed).to.eq(2512920)
+    expect(receipt.gasUsed).to.eq(2509103)
   })
 
   it('setFeeTo', async () => {
@@ -84,3 +84,4 @@ describe('VoltageFactory', () => {
     await expect(factory.setFeeToSetter(wallet.address)).to.be.revertedWith('Voltage: FORBIDDEN')
   })
 })
+ 
